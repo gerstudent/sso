@@ -9,11 +9,18 @@ require (
 	golang.org/x/crypto v0.16.0
 )
 
-require github.com/mattn/go-sqlite3 v1.14.17 // indirect
+require (
+	github.com/golang-migrate/migrate/v4 v4.16.2 // indirect
+	github.com/hashicorp/errwrap v1.1.0 // indirect
+	github.com/hashicorp/go-multierror v1.1.1 // indirect
+	github.com/mattn/go-sqlite3 v1.14.17 // indirect
+	go.uber.org/atomic v1.7.0 // indirect
+)
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible
+	github.com/golang-migrate/migrate v3.5.4+incompatible
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/joho/godotenv v1.5.1 // indirect
